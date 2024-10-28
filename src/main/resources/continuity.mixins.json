@@ -6,11 +6,12 @@
   "client": [
     "AtlasLoaderMixin",
     "BakedModelManagerMixin",
+    "BakerImplMixin",
     "BlockModelsMixin",
     "FallingBlockEntityRendererMixin",
     "IdentifierMixin",
     "LifecycledResourceManagerImplMixin",
-    "ModelLoaderMixin",
+    "ModelBakerMixin",
     "NamespaceResourceManagerMixin",
     "PistonBlockEntityRendererMixin",
     "ReloadableResourceManagerImplAccessor",

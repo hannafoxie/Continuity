@@ -42,7 +42,7 @@ public final class CustomBlockLayers {
 	@Nullable
 	public static RenderLayer getLayer(BlockState state) {
 		if (!disableSolidCheck) {
-			if (state.isOpaqueFullCube(EmptyBlockView.INSTANCE, BlockPos.ORIGIN)) {
+			if (state.isOpaqueFullCube()) {
 				return null;
 			}
 		}
